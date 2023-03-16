@@ -1,0 +1,94 @@
+.all-4 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 14px);
+}
+.all-4-wrapper {
+  left: 0;
+}
+.all-4-container,
+.all-4-frame,
+.all-4-wrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 120px;
+}
+.all-4-container {
+  left: 135px;
+}
+.all-4-frame {
+  left: calc(50% - 195px);
+}
+.group-div {
+  left: calc(50% - 60px);
+}
+.all-4-wrapper1,
+.all-4-wrapper2,
+.all-4-wrapper3,
+.group-div {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 120px;
+}
+.all-4-wrapper1 {
+  left: calc(50% + 75px);
+}
+.all-4-wrapper2 {
+  right: 135px;
+}
+.all-4-wrapper3 {
+  right: 0;
+}
+.group-container {
+  top: 9px;
+  right: 15px;
+  left: 15px;
+}
+.group-container,
+.group-parent1,
+.group-parent2 {
+  position: absolute;
+  width: calc(100% - 30px);
+  height: 40px;
+}
+.group-parent1 {
+  top: calc(50% - 23.5px);
+  right: 15px;
+  left: 15px;
+}
+.group-parent2 {
+  right: 14px;
+  bottom: 16px;
+  left: 16px;
+}
+.group-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-deepskyblue-200);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  width: 960px;
+  height: 175px;
+}
+.hot-offload {
+  position: relative;
+  width: 960px;
+  height: 175px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-deepskyblue-200);
+  font-family: var(--font-roboto);
+}

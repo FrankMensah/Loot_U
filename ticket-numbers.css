@@ -1,0 +1,170 @@
+.ticket-numbers-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 310px;
+  height: 400px;
+}
+.ellipse-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div171 {
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 5px);
+}
+.ellipse-group,
+.ellipse-parent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+}
+.ellipse-parent {
+  left: 0;
+}
+.ellipse-group {
+  left: calc(50% - 50px);
+}
+.ellipse-container {
+  left: calc(50% - 15px);
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+}
+.ellipse-parent1,
+.ellipse-parent2 {
+  width: 30px;
+}
+.ellipse-parent1,
+.ellipse-parent2,
+.result-data {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.ellipse-parent1 {
+  left: calc(50% + 20px);
+}
+.ellipse-parent2,
+.result-data {
+  right: 0;
+}
+.result-data {
+  width: 170px;
+}
+.div176 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.result-data-group,
+.result-data-parent {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 30px;
+}
+.result-data-parent {
+  top: 0;
+}
+.result-data-group {
+  top: 31px;
+}
+.result-data-container,
+.result-data-parent1 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 123.5px);
+  right: 0;
+  left: 0;
+  height: 30px;
+}
+.result-data-parent1 {
+  top: calc(50% - 92.5px);
+}
+.result-data-parent2 {
+  top: calc(50% - 61.5px);
+}
+.result-data-parent2,
+.result-data-parent3,
+.result-data-parent4 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 30px;
+}
+.result-data-parent3 {
+  top: calc(50% - 30.5px);
+}
+.result-data-parent4 {
+  top: calc(50% + 0.5px);
+}
+.result-data-parent5 {
+  top: calc(50% + 31.5px);
+}
+.result-data-parent5,
+.result-data-parent6,
+.result-data-parent7 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 30px;
+}
+.result-data-parent6 {
+  top: calc(50% + 62.5px);
+}
+.result-data-parent7 {
+  top: calc(50% + 93.5px);
+}
+.result-data-parent8,
+.result-data-parent9 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 31px;
+  left: 0;
+  height: 30px;
+}
+.result-data-parent9 {
+  bottom: 0;
+}
+.group-parent7 {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 283px;
+  height: 371px;
+}
+.ticket-numbers {
+  position: relative;
+  width: 310px;
+  height: 400px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-deepskyblue-200);
+  font-family: var(--font-roboto);
+}
